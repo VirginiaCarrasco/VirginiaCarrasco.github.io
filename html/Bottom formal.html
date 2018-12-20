@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fastlook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/1220/1220466.svg">
+    <link rel="basket" href="https://cdn4.iconfinder.com/data/icons/essential-app-1/16/shopping-basket-buy-retail-512.png">
+    
+</head>
+    <body>
+        <header>
+            <div class="logo">
+              <a href="../html/Index.html"><img alt="bag" src="../imagenes/Logo Fastlook.png" class="Logo"></a>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fb7777;">
+          <a class="navbar-brand" href="../html/Index.html">Fastlook</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../html/Index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/Sobre Fastlook.html">Sobre Fastlook</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ropa Casual
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../html/Top casual.html">Top</a>
+                <a class="dropdown-item" href="../html/Bottom casual.html">Bottom</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../html/vestidos casuales.html">Vestidos</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ropa formal
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../html/Top formal.html">Top</a>
+                <a class="dropdown-item" href="../html/Bottom formal.html">Bottom</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../html/vestidos formales.html">Vestidos</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-info btn-lg center-block" type="submit">Buscar</button>
+          </form>
+        </div>
+        <a class="navbar-brand" href="../html/canasto de reservas.html"><img class="canasto"src="../imagenes/canasto.png" alt="canasto de reservas"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </nav>
+      <!--comienza filtro-->
+      <nav class="product-filter">
+
+        <h1>Bottom formal</h1>
+      
+        <div class="sort">
+      
+          <div class="collection-sort">
+            <label>Filtrar por color:</label>
+            <select>
+              <option value="/">Todos los bottom formales</option>
+              <option value="/">Negro</option>
+              <option value="/">Blanco</option>
+              <option value="/">Rojo</option>
+              <option value="/">Azul</option>
+              <option value="/">Rosa</option>
+              <option value="/">Verde</option>
+
+            </select>
+          </div>
+      
+          <div class="collection-sort">
+            <label>Ordenar por:</label>
+            <select>
+              <option value="/">Más vendidos</option>
+              <option value="/">De menor a mayor precio</option>
+              <option value="/">De mayor a menor precio</option>
+              <option value="/">De A a Z</option>
+              <option value="/">De Z a A</option>
+            </select>
+          </div>
+      
+        </div>
+      
+      </nav>
+      <!--termina filtro-->
+      <!--Comienza galeria de imagenes-->
+      <section class="products">
+
+        <!-- It's likely you'll need to link the card somewhere. You could add a button in the info, link the titles, or even wrap the entire card in an <a href="..."> -->
+      
+            <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/falda formal roja.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Falda formal roja</h5>
+                  <h6>$600</h6>
+                </div>
+                <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg center-block" data-toggle="modal" data-target="#myModal">Ver producto</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header card-header-title">
+        <h4 class="modal-title card-element-title">Falda formal roja</h4>
+      </div>
+      <div class="modal-body">
+        <div class="card-content-clearfix">
+                <div class="item-img">
+                    <img src="../imagenes/falda formal roja.jpg">
+                </div>
+                <div class="item-info">
+                  <h5>Falda formal roja</h5>
+                  <h6>$600</h6>
+                  <p>Selecciona un talle:</p>
+                    <div>
+                      <input type="radio" id="S" name="drone" value="S"
+                             checked>
+                      <label for="S">S</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="M" name="drone" value="M">
+                      <label for="M">M</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="L" name="drone" value="L">
+                      <label for="L">L</label>
+                    </div>
+                    <a href="canasto de reservas.html"><button class="btn btn-info btn-lg center-block" data-toggle="modal" data-target="#reserva">Reservar</button></a>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/minifalda formal azul.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Minifalda formal azul</h5>
+                  <h6>$600</h6>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/minifalda formal negra.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Minifalda formal negra</h5>
+                  <h6>$600</h6>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/pantalon formal blanco.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Pantalon formal blanco</h5>
+                  <h6>$800</h6>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/pantalon formal gris.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Pantalon formal gris</h5>
+                  <h6>$800</h6>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/pantalon formal azul.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Pantalon formal azul</h5>
+                  <h6>$800</h6>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/short formal negro con detalles blancos.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Short formal negro con detalles blancos</h5>
+                  <h6>$800</h6>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/falda formal estampada.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Falda formal estampada</h5>
+                  <h6>$600</h6>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="../imagenes/pantalon formal verde lima.jpg">
+                </div>
+                <div class="product-info">
+                  <h5>Pantalon formal verde lima</h5>
+                  <h6>$800</h6>
+                </div>
+              </div>
+              
+      
+        <!-- mas productos -->
+      
+      </section>
+      <!--Finaliza galeria de imagenes-->
+      <footer>
+        <div class="footer">
+            <div class="Contact">
+              <h3 >Contactanos</h3>
+              <div class="Contact-content">
+              <img class="gmail-icon" src="../imagenes/iconmonstr-gmail-1-32.png" alt="Gmail Icon"><h4>Fastlook@gmail.com</h4>
+              <img class="Phone-icon" src="../imagenes/iconmonstr-phone-3-32.png" alt="Phone Icon"><h4>0800-(FAST)3278</h4>
+              </div>
+            </div>
+            <div class="Credit-cards">
+              <h3 >Formas de pago</h3>
+              <img src="../imagenes/iconmonstr-payment-1-64.png" alt="credit card">
+              <img src="../imagenes/iconmonstr-payment-5-64.png" alt="credit card2">
+              <img src="../imagenes/iconmonstr-payment-3-64.png" alt="Credit card3">
+            </div>
+            <div class="social-media">
+            <h3 >Seguinos en nuestras redes</h3>
+            <a href="https://twitter.com/?lang=es"><img src="../imagenes/iconmonstr-twitter-1-32.png"alt="Twitter Icon"></a>
+            <a href="https://es-la.facebook.com/"><img src="../imagenes/iconmonstr-instagram-1-32.png" alt="Instagram Icon"></a>
+            <a href="https://www.instagram.com/?hl=es-la"><img src="../imagenes/iconmonstr-facebook-1-32.png" alt="Facebook Icon"></a>
+            </div>
+          </div>
+         </div>
+        </footer>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   </body>
+  </html>

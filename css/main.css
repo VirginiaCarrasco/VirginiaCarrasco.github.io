@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel");
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:white;
+
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+header{
+    background: white;
+    display: flex;
+    flex-flow: row nowrap;
+    padding:20px;
+    justify-content: center; 
+}
+h1{ 
+    flex: 1 1 auto;
+    text-align:center;
+    color: #05004e;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 80px;
+   
+}
+ .row{
+     flex:1 50%;
+ }
+h2{
+    font-family: "Grand Hotel", cursive;
+    font-size: 50px;
+    color:#05004e;
+}
+h3{
+    font-family:"Grand Hotel",cursive;
+    font-size: 30px;
+    color:#05004e;
+}
+h4{
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.canasto{
+    width: 70px;
+    padding:10px;
+}
+.btn{
+    color: red;
+    background: white;
+    border-color: red;
+}
+
+
+/***** About us *****/
+.retail{
+    display:block;
+margin:auto;
+border-radius: 46px 46px 46px 46px;
+-moz-border-radius: 46px 46px 46px 46px;
+-webkit-border-radius: 46px 46px 46px 46px;
+border: 0px solid #000000;
+}
+/*Finaliza About*/
+/*comienza filtro*/
+.product-filter {
+	display: flex;
+	padding: 30px 0;
+}
+
+.sort {
+	display: flex;
+	align-self: flex-end;
+}
+
+.collection-sort {
+ display: flex;
+	flex-direction: column;
+}
+
+.collection-sort:first-child {
+	padding-right: 20px;
+}
+
+label {
+	color: #666;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product-card {
+	display: flex;
+	flex-direction: column;
+	
+	padding: 2%;
+	flex: 1 16%;
+	
+	background-color: #FFF;
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+}
+
+.product-image img {
+	width: 100%;
+}
+
+.product-info {
+	margin-top: auto;
+	padding-top: 20px;
+	text-align: center;
+}
+@media ( max-width: 600px ) {
+	
+	.product-card {
+		flex: 1 46%;
+	}
+	
+}
+
+@media ( max-width: 480px ) {
+	
+	h1 {
+		margin-bottom: 20px;
+	}
+	
+	.product-filter {
+		flex-direction: column;
+	}
+	
+	.sort {
+		align-self: flex-start;
+	}
+	
+}
+/*Finaliza galeria de imagenes*/
+/*comienza vista item*/
+.card-content > .card{
+  margin: 1%;
+  width: calc(96% / 2);
+  background: #1a92b7;
+  border-radius: 7px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 141px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  float: left;
+  color: #fff;
+  transition: .5s;
+  -webkit-transition: .5s;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
+    background-color: #F8971D;
+    user-select: none;
+    transition: 0s;
+    -webkit-transition: 0s;
+}
+
+.card-header-title{
+  background: #f4f4f4
+}
+.card-element-title{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 33px;
+  color: #7f7f7f;
+
+}
+.card-content-clearfix{
+    display: flex;
+	flex-direction: row;
+	
+	padding: 2%;
+	flex: 1 16%;
+	
+	background-color: #FFF;
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+}
+.item-img img{
+    width: 100%;
+}
+.item-info{
+    display:flex;
+    flex-flow: column;
+    margin-top: auto;
+	padding-top: 5px;
+    text-align: center;
+}
+.item-info h5{
+    font-size: 20px;
+}
+p,
+label {
+    font: 20px 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+/*finaliza vista item*/
+.checkout{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+}
+.carousel-inner > .carousel-item > img {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 50%;
+  }
+
+p{
+    background: white;
+    padding:40px;
+}
+.footer{
+    display:flex;
+    flex-flow: row nowrap;
+    flex:1 1 auto;
+    margin:10px;
+    background-color:#fb7777;
+}
+.Contact{
+    flex: 1 1 33%;
+    flex-flow: row nowrap;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.Contact-content{
+    display:flex;
+    flex-flow:row nowrap;
+    flex:1 1 auto;
+}
+.Contact-content img{
+   margin:10px;
+}
+.Contact-content h4{
+    margin:10px;
+}
+.Credit-cards{
+    flex: 1 1 33%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.social-media{
+    flex: 1 1 33%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}

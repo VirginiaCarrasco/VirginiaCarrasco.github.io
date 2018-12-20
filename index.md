@@ -1,7 +1,7 @@
 <html>
 <head>
-<title>El sitio está hosteado en otra página, se redireccionará en 2 segundos</title>
-<meta http-equiv="refresh" content="2; URL=https://virginiacarrasco.github.io/html/Index.html">
+<title>El sitio está hosteado en otra página, se redireccionará en 1 segundo</title>
+<meta http-equiv="refresh" content="1; URL=https://virginiacarrasco.github.io/html/Index.html">
 <meta name="keywords" content="automatic redirection">
 </head>
 <body>

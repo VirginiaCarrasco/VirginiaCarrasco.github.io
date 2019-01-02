@@ -235,7 +235,7 @@ p{
     background-color:#fb7777;
 }
 .Contact{
-    flex: 1 1 33%;
+    flex: 1 1 25%;
     flex-flow: row wrap;
     margin: 10px;
     padding: 20px;
@@ -254,7 +254,7 @@ p{
     margin:10px;
 }
 .Credit-cards{
-    flex: 1 1 33%;
+    flex: 1 1 25%;
     margin: 10px;
     padding: 20px;
     text-align: center;

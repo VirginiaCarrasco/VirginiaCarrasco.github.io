@@ -1,0 +1,73 @@
+body{
+    background-color:#fcf2db;
+}
+H1{
+    color:#DCAEE8;
+    font-family: 'KulminoituvaRegular', helvetica, sans-serif;
+    font-size:80px;
+    text-align: center;
+}
+h2{
+    color:#DCAEE8;
+    font-family: 'KulminoituvaRegular', helvetica, sans-serif;
+    font-size:40px;
+    text-align: center;
+}
+
+ ul li {
+        float: left;
+        list-style: none;
+        margin-right: 1em;
+        font-family: 'KulminoituvaRegular', helvetica, sans-serif;
+        font-size: 25px;
+        padding: 12px;
+       }
+
+li a {
+        color: #544738;
+        text-decoration: none;
+        float: left;
+        font-size: 25px;
+        padding: 12px;
+       }
+
+ li a:hover {
+        color: #7eb9be;
+       }
+
+       @font-face {
+        font-family: 'KulminoituvaRegular';
+        src: url('kulminoituva-webfont.eot');
+        src:url(kulminoituva.ttf);
+        font-weight: normal;
+        font-style: normal;
+       }
+       .left a:hover {
+
+        /*Transition*/
+        -webkit-transition:All .5s ease;
+        -moz-transition:All .5s ease;
+        -o-transition:All .5s ease;
+        transition:All .5s ease;
+
+        /*Transform*/
+        -webkit-transform: rotate(-10deg) scale(1.2);
+        -moz-transform: rotate(-10deg) scale(1.2);
+        -o-transform: rotate(-10deg) scale(1.2);
+        transform:rotate(-10deg) scale(1.2);
+       }
+
+       .right a:hover {
+
+        /*Transition*/
+        -webkit-transition:All .5s ease;
+        -moz-transition:All .5s ease;
+        -o-transition:All .5s ease;
+        transition:All .5s ease;
+
+        /*Transform*/
+        -webkit-transform: rotate(10deg) scale(1.2);
+        -moz-transform: rotate(10deg) scale(1.2);
+        -o-transform: rotate(10deg) scale(1.2);
+        transform: rotate(10deg) scale(1.2);
+       }
